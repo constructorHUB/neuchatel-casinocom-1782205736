@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+    <script src="./common.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1782204214-logo.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>: Neuchatel Casino | Echtes landbasiertes Casino</title>
+    <meta name="description"
+          content="Entdecken Sie Neuchatel Casino mit klaren, gästeorientierten Informationen über unsere reale landbasierte Casino-Marke.">
+    <link rel="canonical" href="https://neuchatel-casino.com">
+    <meta property="og:title" content=": Neuchatel Casino | Echtes landbasiertes Casino">
+    <meta property="og:description"
+          content="Entdecken Sie Neuchatel Casino mit klaren, gästeorientierten Informationen über unsere reale landbasierte Casino-Marke.">
+    <meta property="og:url" content="https://neuchatel-casino.com">
+    <meta property="og:site_name" content=": Neuchatel Casino | Echtes landbasiertes Casino">
+    <meta property="og:locale" content="de-CH">
+    <meta property="og:image" content="_assets/images/1782204151-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="neuchatel-casino.com">
+    <meta name="twitter:title" content=": Neuchatel Casino | Echtes landbasiertes Casino">
+    <meta name="twitter:description"
+          content="Entdecken Sie Neuchatel Casino mit klaren, gästeorientierten Informationen über unsere reale landbasierte Casino-Marke.">
+    <meta name="twitter:image" content="_assets/images/1782204151-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1782204209-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-CH">
+    <link rel="apple-touch-icon" href="_assets/images/1782204147-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1782204147-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1782204257-main.webp" as="image" fetchpriority="high">
+
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#3561AB"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#EB5F48"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#EB5F48"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#3561AB"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#EB5F48"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#5c5c5c"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+
+    <header class="header" id="top">
+        <div class="headerBlock">
+
+            <!-- Logo -->
+            <div class="headerLogoContainer">
+                <a href="https://neuchatel-casino.com" aria-label="Main page">
+                    <img
+                            class="header__logo logo"
+                            src="_assets/images/1782204214-logo.svg"
+                            alt="Neuchatel Casino"
+                    />
+                </a>
+            </div>
+
+            <div class="navBlockMain">
+
+            <!-- Main Navigation -->
+            <nav>
+                <button class="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                </button>
+
+                <ul class="nav__list nav__list--header">
+
+                    <li><a href="index">index</a></li>
+                    <li><a href="restaurants">Restaurants</a></li>
+                    <li><a href="online">Online</a></li>
+                    <li><a href="vip">VIP</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="uberuns">Über uns</a></li>
+                    <li><a href="nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li><a href="datenschutz">Datenschutz</a></li>
+                    <li><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+                <!-- CTA buttons -->
+                <div class="btn__list">
+<!--                    <div class="nav__item">-->
+<!--                        <a-->
+<!--                                class="nav__link"-->
+<!--                                target="_blank"-->
+<!--                                href="casino.html?id=example-offer-id"-->
+<!--                                aria-label=""-->
+<!--                                id="navSignUp"-->
+<!--                        >-->
+<!--                            -->
+<!--                        </a>-->
+<!--                    </div>-->
+
+                    <div class="nav__item nav__itemLarge">
+                        <a
+                                class="nav__link nav__linkLarge"
+                                target="_blank"
+                                href="casino.html?id=example-offer-id"
+                                aria-label="Jetzt spielen"
+                                id="navPlayNow"
+                        >
+                            Jetzt spielen
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Offizieller Guide zum Neuchatel Casino</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">162 Spielautomaten: Klassiker und Neuheiten</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Mindesteinsatz ab 0.01 Fr.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Roulette und Blackjack abends täglich</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Ultimate Texas Hold’em mit Casino-Feeling</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Top-Lage nahe See und Zentrum</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Schneller Einlass mit gültigem Ausweis</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Gratis Garderobe, gepflegtes Ambiente</p>
+                                </li>
+                                <li class="providersGroup">Das Casino Neuchâtel überzeugt mit kompakter, moderner Spielauswahl und entspannter Atmosphäre. Wer gerne Tischspiele am Abend und Automaten tagsüber kombiniert, findet hier eine runde Mischung.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Casino Neuchâtel App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1782204947-mobile.webp" title="Neuchatel Casino Mobile"
+                                alt="Casino Neuchâtel App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Casino Neuchâtel App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Casino Neuchâtel App" title="Casino Neuchâtel App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über Casino Neuchâtel</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Das Casino Neuchâtel sticht heraus, weil es Jackpot-Spannung und niedrige Einstiege in einem Haus vereint. Zusätzlich sorgen tägliche Tischspiele am Abend für Abwechslung und echtes Casino-Flair.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Mystery Jackpot: 100’000+ CHF</li>
+                                        <li class="historyItem">Progressive Slots: hohe Auszahlungen</li>
+                                        <li class="historyItem">Einstieg ab 0.01 CHF</li>
+                                    </ul>
+                                    <p class="historyDescription">Das Casino Neuchâtel ist ein urbanes Casino am See mit elegantem Ambiente und modernem Spielsaal. Man kann den Abend entspannt mit einem Drink beginnen und danach direkt ins Spiel wechseln. Im Automatenbereich wartet eine breite Auswahl an Themen und Spielmechaniken von klassisch bis aktuell.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1782205010-deesktoipo.webp" alt=" Casino Neuchâtel " title="Neuchatel Casino Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Die Tischspiele bringen traditionelle Spannung und den direkten Kontakt mit den Croupiers. Das Haus ist so gestaltet, dass sich Gäste auch bei höherem Andrang wohlfühlen. Der Stil wirkt gepflegt, ruhig und gleichzeitig lebendig. Für Pausen stehen Barbereiche und kulinarische Optionen bereit. Das Casino eignet sich sowohl für einen kurzen Besuch als auch für einen ganzen Abend. Klare Einlassregeln und Spielerschutz sind sichtbar Teil des Konzepts. Viele Gäste schätzen hier die Mischung aus Zugänglichkeit und echtem Casino-Feeling.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Neuchâtel Casino: elegantes Spielambiente, Pizzeria Vesuvius, Bar und zecard</h2>
+                        <div class="historyDescription">
+<p>
+Im Neuchâtel Casino begrüssen wir unsere Gäste in einem stilvollen Spielhaus, das historisches Ambiente, moderne Spielflächen und eine angenehme Abendstimmung miteinander verbindet. Unsere Spielautomaten sind täglich ab 10:00 Uhr geöffnet und stehen von Sonntag bis Donnerstag bis 03:00 Uhr sowie am Freitag, Samstag und am Vorabend von Feiertagen bis 04:00 Uhr zur Verfügung. An über 160 Spielautomaten erleben Gäste klassische Walzenautomaten, Video Slots, Video Poker und elektronisches Roulette mit Mindesteinsätzen ab CHF 0.01 bis CHF 1. Unsere Tischspiele bringen am Abend besondere Spannung in den Saal: Roulette Anglaise, Black Jack und Ultimate Texas Hold’em Poker starten von Montag bis Freitag ab 19:00 Uhr sowie am Samstag und Sonntag ab 18:00 Uhr. Für Genussmomente empfehlen wir unsere Pizzeria Vesuvius, in der neapolitanische Pizzas und italienische Spezialitäten den Casinoabend kulinarisch abrunden. In der Spielsaal-Bar geniessen Gäste Drinks, kurze Pausen und eine entspannte Atmosphäre zwischen Spielautomaten, Tischspielen und Jackpot-Momenten. Unsere Animationen bringen zusätzliche Abwechslung mit saisonalen Aktionen, Themenabenden, Verlosungen, kulinarischen Momenten und besonderen Casinoerlebnissen. Mit der kostenlosen zecard sammeln Gäste Punkte an Spielautomaten und Tischspielen, profitieren von Angeboten, Geschenken, Partnerbenefits, einem eigenen Jackpot und zusätzlicher Spielzeit. Der Zugang zum Spielsaal ist bis 30 Minuten vor Schliessung möglich, wodurch sich der Abend flexibel planen lässt. Neuchâtel Casino steht für Spiel, Service, Genuss und eine elegante Atmosphäre, die jeden Besuch zu einem besonderen Erlebnis macht.
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:34%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Zone
+      </th>
+      <th style="width:33%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Tage
+      </th>
+      <th style="width:33%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Zeit
+      </th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Spielautomaten</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Sonntag bis Donnerstag</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">10:00–03:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Spielautomaten</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Freitag, Samstag und Vorabend von Feiertagen</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">10:00–04:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Reel Slots, Video Slots, Video Poker</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Täglich</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab 10:00 Uhr bis Casinoschluss</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Elektronisches Roulette</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Täglich</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab 10:00 Uhr bis Casinoschluss</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Tischspiele</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Montag bis Freitag</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab 19:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Tischspiele</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Samstag und Sonntag</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab 18:00 Uhr</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Pizzeria Vesuvius</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Dienstag bis Sonntag</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Mittag und Abend</td>
+    </tr>
+  </table>
+</div>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino: Staff, Languages, Currency, Payments and Winnings
+</h3>
+<p>
+At Neuchâtel Casino, we welcome every guest with professional service, clear guidance and a calm, confident gaming atmosphere. Our team assists visitors at the entrance, during identity control, at reception, on the gaming floor, at the bar, in the restaurant area and at the cash desk. Our croupiers and floor staff help guests understand Roulette Anglaise, Black Jack, Ultimate Texas Hold’em Poker, video poker, slot machines and electronic roulette. We pay special attention to first-time visitors, because a casino evening becomes more enjoyable when the rules, chips, tickets and payout process are easy to understand. French is the main language of communication in our casino, and our team also aims to assist guests in English and German whenever needed.<br><br>
+The main currency at Neuchâtel Casino is CHF, which is used for chips, slot play, tickets and payouts. At the tables, guests buy chips and receive winnings according to the rules of the selected game. On slot machines, credits and tickets make it easy to continue playing, move between machines or request a payout through the available casino procedures. In the restaurant and bar, guests can use familiar payment formats according to the conditions in place. For card payments, cash desk services, limits, exchange options and specific payment questions, our reception or cashier team will guide guests to the most suitable solution.<br><br>
+ATMs and currency exchange are best planned around the use of CHF, because all gaming operations in our casino are based on the local cash and chip system. Guests who need cash or foreign currency support can ask our team for current cash desk information and nearby options. We recommend preparing CHF before the gaming session so that the evening remains smooth, relaxed and uninterrupted. Chips, tickets, cashier operations and jackpot procedures are handled according to our security and compliance rules. This allows us to keep every transaction clear, reliable and comfortable for our guests.<br><br>
+The payout process depends on the game format. Table game winnings are paid according to the relevant rules of Roulette, Black Jack or Ultimate Texas Hold’em Poker, while slot machine credits and tickets are handled through the cash desk or available payout procedures. Jackpot winnings and larger payouts may require additional checks, identification and secure processing. Winnings from licensed land-based casino games are generally paid without tax withholding for regular guests. Guests with specific personal tax circumstances remain responsible for their own declarations, while our role is to provide a correct, secure and transparent payout experience at Neuchâtel Casino.
+</p>
+<br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino: Besuchsregeln, Dresscode, Parking und Anreise
+</h3>
+<p>
+Im Neuchâtel Casino schaffen wir eine elegante, sichere und komfortable Atmosphäre, in der sich unsere Gäste vom ersten Moment an willkommen fühlen. Der Zutritt zum Spielsaal ist ab 18 Jahren mit einem gültigen amtlichen Ausweis möglich. Am Eingang führen wir eine Identitätskontrolle durch, damit der Casinozugang zuverlässig, transparent und verantwortungsvoll bleibt. Ein Besuch bei uns verpflichtet nicht zum Spielen: Gäste können auch in der Pizzeria Vesuvius essen, einen Drink an der Bar geniessen, an einer Animation teilnehmen oder einfach die Casino-Atmosphäre erleben. Für den Eintritt empfehlen wir korrekte und gepflegte Kleidung, die zum Stil des Neuchâtel Casino passt. Smart Casual ist für einen Abend mit Spielautomaten, Tischspielen, Restaurant und Bar besonders passend. Unser kostenloser Garderobenservice sorgt dafür, dass Gäste bequem und gepflegt in den Spielsaal gehen können. Der Zugang ist bis 30 Minuten vor Schliessung möglich. Für Mitglieder der zecard stehen attraktive Parking-Vorteile zur Verfügung. Mit den Buslinien 101 und 121 erreichen Gäste die Haltestelle Université, und vom Bahnhof aus ist der Weg zu uns auch über den Fun’ambule besonders angenehm.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Zutritt zum Neuchâtel Casino
+</h3>
+<ul>
+            <li>• Der Eintritt ist ab 18 Jahren mit gültigem amtlichem Ausweis möglich.</li>
+            <li>• Der Ausweis muss Identität und Alter klar bestätigen.</li>
+            <li>• Der Zugang zum Spielsaal ist bis 30 Minuten vor Schliessung möglich.</li>
+            <li>• Gäste mit gültiger Spielsperre erhalten keinen Zugang zum Spielsaal.</li>
+            <li>• Unser Empfangsteam hilft neuen Gästen gerne bei Orientierung und ersten Fragen.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Dresscode im Neuchâtel Casino
+</h3>
+<ul>
+            <li>• Wir empfehlen korrekte, gepflegte und stilvolle Kleidung.</li>
+            <li>• Smart Casual passt ideal zu unserem Casinoambiente.</li>
+            <li>• Badeanzüge sind im Spielsaal nicht zugelassen.</li>
+            <li>• Tank Tops, Mützen und Hüte entsprechen nicht unserem Dresscode.</li>
+            <li>• Die Garderobe steht unseren Gästen kostenlos zur Verfügung.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Verhalten im Spielsaal
+</h3>
+<ul>
+            <li>• Wir bitten um respektvollen Umgang mit Gästen, Croupiers und Mitarbeitenden.</li>
+            <li>• Spielregeln, Tischlimits und Auszahlungsprozesse gelten je nach Spielbereich.</li>
+            <li>• Telefonieren, Fotografieren und Filmen richten sich nach den Regeln des Spielsaals.</li>
+            <li>• Speisen und Getränke werden über unsere Bar und Pizzeria Vesuvius angeboten.</li>
+            <li>• Wir pflegen eine ruhige, sichere und elegante Casinoatmosphäre.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Parking und Anreise
+</h3>
+<ul>
+            <li>• zecard-Mitglieder profitieren von Parking-Vorteilen nach den aktuellen Bedingungen am Empfang.</li>
+            <li>• Für den Parking-Vorteil wird das Parkticket am Empfang vorgezeigt.</li>
+            <li>• Mit den Buslinien 101 oder 121 steigen Gäste an der Haltestelle Université aus.</li>
+            <li>• Vom Bahnhof ist der Weg zu Fuss angenehm erreichbar.</li>
+            <li>• Der Fun’ambule verbindet den Bahnhof mit dem Jardin Anglais und erleichtert die Anreise.</li>
+        </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino zecard: Bonusclub, Punkte, Angebote und Gästebenefits
+</h3>
+<p>
+Die zecard ist unser Bonusclub im Neuchâtel Casino für Gäste, die jeden Besuch persönlicher, komfortabler und lohnender gestalten möchten. Die Registrierung ist kostenlos und erfolgt direkt am Empfang unseres Casinos. Nach dem Ausfüllen des Beitrittsformulars wird die Karte sofort erstellt, damit Gäste direkt von den Vorteilen profitieren können. Mit der zecard sammeln Mitglieder Punkte an Spielautomaten und Tischspielen. An Spielautomaten wird die Karte einfach in den gewünschten Automaten eingeführt, damit Punkte automatisch gutgeschrieben werden. Bei Tischspielen zeigen Gäste ihre Karte dem Croupier, damit die erspielten Punkte dem Konto zugeordnet werden können. Die gesammelten Punkte lassen sich für Geschenke, Partnerangebote oder zusätzliche Spielzeit im Casino nutzen. Zu den Vorteilen gehören ein beschleunigter Identitätscheck, exklusive Angebote, ein eigener Jackpot, Geschenke, Parking Benefits und besondere Aktionen. Die zecard funktioniert besonders unkompliziert, weil Gäste keine komplexen Schritte durchlaufen müssen: Karte nutzen, Punkte sammeln und Benefits geniessen. Für eine klare Orientierung unterscheiden wir praktische Nutzungsstufen von der Anmeldung bis zur erweiterten Nutzung der Clubvorteile.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Registrierung für die zecard
+</h3>
+<ul>
+            <li>• Die Registrierung kostet CHF 0 und ist kostenlos.</li>
+            <li>• Die Anmeldung erfolgt am Empfang des Neuchâtel Casino.</li>
+            <li>• Gäste füllen ein Beitrittsformular aus und erhalten die Karte sofort.</li>
+            <li>• Voraussetzung ist der reguläre Casinozutritt ab 18 Jahren mit gültigem Ausweis.</li>
+            <li>• Die Karte wird vor dem Spielen genutzt, damit Punkte korrekt gesammelt werden.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Praktische zecard-Nutzungsstufen
+</h3>
+<ul>
+            <li>• Neue zecard-Mitgliedschaft: Karte für CHF 0 erhalten und direkt Punkte sammeln.</li>
+            <li>• Aktiver Spieler: Punkte an Spielautomaten und Tischspielen sammeln.</li>
+            <li>• Rewards-Nutzer: Punkte gegen Geschenke, Partnerangebote oder zusätzliche Spielzeit einlösen.</li>
+            <li>• Club-Gast: von exklusiven Angeboten, Animationen und einem eigenen Jackpot profitieren.</li>
+            <li>• Personal-Benefits-Gast: Parking Benefits, schnelleren Eintritt und persönliche Angebote nutzen.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+zecard-Benefits
+</h3>
+<ul>
+            <li>• Beschleunigter Identitätscheck für einen komfortableren Eintritt.</li>
+            <li>• Punkte sammeln an Spielautomaten durch Einführen der Karte.</li>
+            <li>• Punkte sammeln an Tischspielen durch Vorzeigen der Karte beim Croupier.</li>
+            <li>• Eigener Jackpot für zecard-Mitglieder.</li>
+            <li>• Geschenke und Partnerbenefits durch Einlösung gesammelter Punkte.</li>
+            <li>• Zusätzliche Spielzeit im Casino durch Punktetausch.</li>
+            <li>• Parking Benefits nach den aktuellen Bedingungen am Empfang.</li>
+            <li>• Exklusive Angebote und Aktionen für Mitglieder.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Neuchâtel Casino: Jackpots, saisonale Animationen, Cash Prizes und Spielangebote</h2>
+                        <div class="historyDescription">
+<p>
+Im Neuchâtel Casino schaffen wir zusätzliche Spielmomente nicht nur über die zecard, sondern auch über Jackpots, Promotions, saisonale Animationen, kulinarische Aktionen und besondere Casinoabende. Unsere Gäste können Mystery Jackpot und ze jackpot verfolgen, deren Beträge sich verändern und für zusätzliche Spannung im Spielsaal sorgen. Der Automatenbereich ist besonders attraktiv für Jackpot-Fans, weil über 160 Spielautomaten unterschiedliche Themen, Mechaniken und Einsatzbereiche von CHF 0.01 bis CHF 1 verbinden. Bei Ultimate Texas Hold’em Poker sorgt ein progressiver Jackpot mit einem zusätzlichen Einsatz von CHF 2 für weitere Spannung. Auch Black Jack wird durch Bonusoptionen abwechslungsreicher und bietet zusätzliche Einsatzmöglichkeiten. Neben dem Spiel organisieren wir regelmässig Animationen, Themenaktionen, Verlosungen, Food Moments und saisonale Specials. Solche Angebote machen den Besuch lebendiger und schaffen zusätzliche Gründe, wiederzukommen. Bei bestimmten Verlosungen können Cash Prizes wie CHF 50 bis CHF 500 Teil des Aktionsformats sein. Kulinarische Animationen bringen Snacks, Tapas-Style-Momente oder besondere Genussangebote in den Spielsaal. So verbinden wir Jackpots, Spielautomaten, Tischspiele, Bar, Pizzeria Vesuvius und Entertainment zu einem vielseitigen Casinoabend.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Jackpots und Spielhighlights
+</h3>
+<ul>
+            <li>• Mystery Jackpot: dynamischer Jackpot mit wechselndem Betrag und zusätzlicher Spannung im Automatenbereich.</li>
+            <li>• ze jackpot: weiteres Jackpot-Format für besondere Gewinnmomente im Neuchâtel Casino.</li>
+            <li>• Ultimate Texas Hold’em Progressive Jackpot: Zusatzoption mit CHF 2 Einsatz für mehr Poker-Spannung.</li>
+            <li>• Spielautomaten-Jackpots: ausgewählte Automaten mit verschiedenen Themen, Mechaniken und Gewinnmomenten.</li>
+            <li>• Elektronisches Roulette: Mischung aus Automatenkomfort und klassischem Roulettegefühl.</li>
+            <li>• Video Poker: Kartenentscheidung am Bildschirm mit eigenem Rhythmus und klarer Spielstruktur.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Promotions und Preisbeispiele
+</h3>
+<ul>
+            <li>• Themenverlosungen: saisonale Aktionen mit mehreren Gewinnern und lebendiger Casinoatmosphäre.</li>
+            <li>• Cash Prizes: bei ausgewählten Aktionen können Beträge von CHF 50 bis CHF 500 im Spiel sein.</li>
+            <li>• Weekend Animations: besondere Aktivitäten an Abenden mit stärkerer Casinoenergie.</li>
+            <li>• Food Animations: Snacks, Tapas-Style-Momente und kulinarische Überraschungen im Spielsaal.</li>
+            <li>• Casino Gifts: Geschenke für Aktionsgäste, Stammgäste und zecard-Mitglieder.</li>
+            <li>• Play-Time Rewards: zusätzliche Spielzeit durch Angebote, Punkte und spezielle Aktionen.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Entertainment-Angebote
+</h3>
+<ul>
+            <li>• Saisonale Abende: Themen rund um Feiertage, Wochenenden und besondere Casinoanlässe.</li>
+            <li>• Bar Moments: Drinks und entspannte Pausen zwischen Spielautomaten und Tischspielen.</li>
+            <li>• Pizzeria Vesuvius Evenings: italienisches Dinner als Teil des Casinoabends.</li>
+            <li>• Partnerangebote: Rewards und Geschenke über die zecard und ausgewählte Partner.</li>
+            <li>• Social Gaming Atmosphere: lebendiger Spielsaal für Gäste, die Unterhaltung und Begegnung schätzen.</li>
+            <li>• Late-Night Casino Experience: Spielbetrieb bis 03:00 Uhr oder 04:00 Uhr je nach Tag.</li>
+        </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino: beliebte Spiele, Spielautomaten, Roulette, Black Jack und Ultimate Texas Hold’em
+</h3>
+<p>
+Im Neuchâtel Casino erwartet unsere Gäste eine vielseitige Spielauswahl mit klassischen Casino Games, modernen Spielautomaten und stimmungsvollen Live Table Games. Unser Spielsaal bietet über 160 Spielautomaten mit Reel Machines, Video Slots, Video Poker und elektronischem Roulette. Die Mindesteinsätze an Spielautomaten liegen zwischen CHF 0.01 und CHF 1, sodass Gäste ihren Spielrhythmus flexibel wählen können. Reel Machines sprechen Gäste an, die traditionelle Symbole und klassisches Walzenspiel mögen. Video Slots bringen mehrere Gewinnlinien, moderne Themen und dynamische Spielmomente in den Saal. Video Poker verbindet Automatenkomfort mit Kartenentscheidungen, denn Gäste entscheiden nach fünf Karten, welche Karten sie behalten oder tauschen möchten. Elektronisches Roulette bietet das Gefühl eines Roulettetisches in einem individuellen Automatenformat. Am Abend stehen die Tischspiele im Mittelpunkt: Roulette Anglaise, Black Jack und Ultimate Texas Hold’em Poker werden von unseren Croupiers begleitet. Roulette Anglaise ist ein Klassiker mit Mindesteinsatz ab CHF 5 und klarer Spielstruktur. Black Jack dreht sich um die Zahl 21 und schnelle Entscheidungen. Ultimate Texas Hold’em Poker verbindet verdeckte Karten, Gemeinschaftskarten und Pokerstrategie mit Casinoatmosphäre.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Spielautomaten im Neuchâtel Casino
+</h3>
+<ul>
+            <li>• Reel Machines: klassische Walzenautomaten mit Symbolkombinationen und traditionellem Spielgefühl.</li>
+            <li>• Video Slots: moderne Multi-Line-Automaten mit Themen, visueller Dynamik und Bonusmomenten.</li>
+            <li>• Video Poker: Kartenformat am Bildschirm mit der Entscheidung, Karten zu behalten oder zu tauschen.</li>
+            <li>• Elektronisches Roulette: Kombination aus Automatenkomfort und Roulette-Atmosphäre.</li>
+            <li>• Jackpot Machines: Spielautomaten mit Mystery Jackpot, ze jackpot und besonderen Gewinnmomenten.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Live Table Games
+</h3>
+<ul>
+            <li>• Roulette Anglaise: klassisches Roulette mit Croupier und Mindesteinsatz ab CHF 5.</li>
+            <li>• Black Jack: Kartenspiel rund um die Zahl 21 mit schnellen Entscheidungen und Live-Atmosphäre.</li>
+            <li>• Ultimate Texas Hold’em Poker: Poker-Style-Spiel gegen den Croupier mit Mindesteinsatz ab CHF 5.</li>
+            <li>• Progressive Jackpot bei Ultimate Texas Hold’em: zusätzliche Option mit CHF 2 Einsatz.</li>
+            <li>• Bonusoptionen bei Black Jack: zusätzliche Einsatzmöglichkeiten für mehr Abwechslung.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Spielauswahl nach Besuchstyp
+</h3>
+<ul>
+            <li>• Für neue Gäste: Reel Machines, Video Slots und elektronisches Roulette.</li>
+            <li>• Für Klassiker-Fans: Roulette Anglaise und Black Jack mit Croupier.</li>
+            <li>• Für Strategiegäste: Ultimate Texas Hold’em Poker und Video Poker.</li>
+            <li>• Für kurze Besuche: Spielautomaten, Barpause und schnelle Spielsessions.</li>
+            <li>• Für Abendgäste: Tischspiele, Pizzeria Vesuvius und Late-Night-Spielsaal.</li>
+        </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino: Mindesteinsätze und maximale Spielbereiche nach Zonen
+</h3>
+<p>
+Im Neuchâtel Casino richten sich Einsätze nach Spielbereich, Tischanzeige und gewähltem Automaten. Unsere Struktur bietet flexible Einstiegsmöglichkeiten: Spielautomaten beginnen bereits ab CHF 0.01, während klassische Tischspiele wie Roulette Anglaise und Ultimate Texas Hold’em Poker ab CHF 5 gespielt werden können. Bonus Bets und Progressive Jackpot Optionen ergänzen das Angebot mit klaren Zusatzbeträgen.
+</p>
+<br>
+<div style="width:100%; max-width:100%; overflow:hidden;">
+  <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+    <tr>
+      <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Spiel / Zone
+      </th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Mindesteinsatz
+      </th>
+      <th style="width:31%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+        Maximalbereich
+      </th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Spielautomaten</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">CHF 0.01</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Je nach Automat und Spiel</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Spielautomaten Startbereich</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Bis CHF 1</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Je nach Denomination</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Reel Machines</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab CHF 0.01</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Automatendisplay</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Video Slots</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab CHF 0.01</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Paylines und Credits</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Video Poker</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ab CHF 0.01</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Denomination</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Elektronisches Roulette</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Terminalanzeige</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Terminallimit</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Roulette Anglaise</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">CHF 5</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Tischlimit</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Black Jack Main Bet</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">CHF 5 oder CHF 10</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Tischlimit</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Black Jack Bonusoptionen</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">CHF 2</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Bis CHF 50 je Side Bet</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ultimate Texas Hold’em Poker</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">CHF 5</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Nach Tischlimit</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Ultimate Texas Hold’em Progressive Jackpot</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">CHF 2</td>
+      <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">Fixe Jackpot-Option</td>
+    </tr>
+  </table>
+</div>
+<h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino: Animationen, Verlosungen, Bar Nights und Abendunterhaltung
+</h3>
+<p>
+Im Neuchâtel Casino gestalten wir einen lebendigen Veranstaltungskalender, in dem Spielsaal, Jackpots, Bar, Pizzeria Vesuvius und thematische Animationen zu einem vollständigen Abend verschmelzen. Unsere Gäste kommen nicht nur für Spielautomaten und Tischspiele, sondern auch für Atmosphäre, Begegnung, besondere Momente, saisonale Aktionen, kulinarische Überraschungen und Late-Night-Casinoflair. Im Spielsaal finden regelmässig Animationen statt, die den Besuch abwechslungsreicher machen: Themenverlosungen, Food Events, Weekend Activities, Cash Prize Moments und Club Offers für zecard-Mitglieder. Besonders beliebt sind Formate, die Spiel, Genuss und soziale Begegnung miteinander verbinden. Unsere Bar im Spielsaal eignet sich ideal für Pausen zwischen Spielautomaten, Roulette Anglaise, Black Jack und Ultimate Texas Hold’em Poker. Am Freitag, Samstag und am Vorabend von Feiertagen entsteht durch die längeren Öffnungszeiten ein besonders angenehmes Late-Night-Erlebnis. Ein Abend kann mit Dinner in der Pizzeria Vesuvius beginnen, mit Drinks weitergehen und in Jackpot Play oder Live Table Games übergehen. Saisonale Aktionen schaffen zusätzliche Gründe für wiederkehrende Besuche. Wir möchten, dass jeder Abend im Neuchâtel Casino stilvoll, lebendig und erinnerungswürdig bleibt.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Regelmässige Animationen
+</h3>
+<ul>
+            <li>• Saisonale Animationen: Themenaktivitäten rund um Kalender, Feiertage und besondere Casinoanlässe.</li>
+            <li>• Themenverlosungen: Gewinnmomente mit mehreren Gewinnern und lebendiger Spielsaalatmosphäre.</li>
+            <li>• Cash Prize Actions: ausgewählte Aktionen mit Cash Rewards, zum Beispiel zwischen CHF 50 und CHF 500.</li>
+            <li>• zecard Offers: spezielle Vorteile und Aktionen für Mitglieder des Bonusclubs.</li>
+            <li>• Weekend Activities: zusätzliche Stimmung an besonders lebendigen Casinoabenden.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Nightlife und Bar Moments
+</h3>
+<ul>
+            <li>• Bar im Spielsaal: Drinks und entspannte Pausen zwischen Spielautomaten und Tischspielen.</li>
+            <li>• Late-Night Casino: längere Öffnungszeiten am Freitag, Samstag und vor Feiertagen.</li>
+            <li>• Pizzeria Vesuvius Evenings: neapolitanische Pizzas und italienische Spezialitäten vor dem Spiel.</li>
+            <li>• Social Casino Experience: Begegnung, Drinks, Spiel und Entertainment in einem Raum.</li>
+            <li>• Table Game Evenings: Roulette Anglaise, Black Jack und Ultimate Texas Hold’em Poker in Live-Atmosphäre.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Jackpot und Special Moments
+</h3>
+<ul>
+            <li>• Mystery Jackpot: wechselnder Jackpot-Betrag für zusätzliche Spannung im Saal.</li>
+            <li>• ze jackpot: weiteres Gewinnformat für besondere Casino-Momente.</li>
+            <li>• Progressive Jackpot bei Ultimate Texas Hold’em: Zusatzoption mit CHF 2 Einsatz.</li>
+            <li>• Food Animations: Snacks, Tapas-Style-Momente und kulinarische Überraschungen.</li>
+            <li>• Seasonal Specials: wechselnde Angebote, die den Besuch immer wieder neu machen.</li>
+        </ul><br><h3 style = "font-weight: bold;font-size: 32px;">
+Neuchâtel Casino: Pizzeria Vesuvius, Bar, Erholung, Hotels und Casino Night
+</h3>
+<p>
+Im Neuchâtel Casino gestalten wir den Abend als vollständiges Erlebnis aus Spiel, Genuss, Drinks, Bar-Atmosphäre und entspannter Abendplanung. Das kulinarische Herzstück ist die Pizzeria Vesuvius, in der unsere Gäste in eine neapolitanische Geschmackswelt eintauchen. Pizzas napolitaines, italienische Spezialitäten und ein lebendiges Restaurantgefühl machen die Pizzeria Vesuvius zum idealen Startpunkt vor dem Casinoabend. Das Restaurant empfängt Gäste von Dienstag bis Sonntag mittags und abends und passt damit sowohl zu einem Lunch-Besuch als auch zu einem Dinner vor den Tischspielen. Für Paare, Freundeskreise, Gruppen und spontane Gäste bietet dieser Rahmen eine angenehme Verbindung aus Restaurant und Casinoflair. Die Bar im Spielsaal ergänzt den Abend mit Drinks, entspannten Pausen und direkter Nähe zu Spielautomaten, Roulette Anglaise, Black Jack, Ultimate Texas Hold’em Poker und Jackpots. Besonders an verlängerten Casinoabenden entsteht daraus ein stimmiger Late-Night-Rhythmus. Gäste können ihren Besuch mit Spaziergängen, nahegelegenen Stadthotels, Bahnhofsanbindung und Fun’ambule komfortabel verbinden. So wird aus einem Casinoabend ein flexibles Stay-&-Play-Erlebnis mit Restaurant, Bar, Spiel und Erholung.
+</p>
+<br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Restaurant und Kulinarik
+</h3>
+<ul>
+            <li>• Pizzeria Vesuvius: Restaurant im Neuchâtel Casino mit Pizzas napolitaines und italienischen Spezialitäten.</li>
+            <li>• Lunch & Dinner Format: geöffnet von Dienstag bis Sonntag mittags und abends.</li>
+            <li>• Dinner before Table Games: ideal vor Roulette Anglaise, Black Jack und Ultimate Texas Hold’em.</li>
+            <li>• Gruppen und Paare: passender Rahmen für Dinner, Treffen und Casinoabende.</li>
+            <li>• Seasonal Food Animations: kulinarische Überraschungen und Snack Moments bei ausgewählten Aktionen.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Bars und Casino-Pausen
+</h3>
+<ul>
+            <li>• Casino Bar: Drinks und entspannte Pausen direkt im Spielsaal.</li>
+            <li>• Bar in Gaming Room: kurze Wege zwischen Spielautomaten, Tischspielen und Jackpot-Bereichen.</li>
+            <li>• Late-Night Drinks: besonders angenehm an Tagen mit verlängerten Öffnungszeiten.</li>
+            <li>• Bar Moments: Treffen mit Freunden, kurze Spielpause oder Ausklang nach dem Dinner.</li>
+            <li>• Social Casino Mood: Drinks, Gespräche und Spiel in einer eleganten Atmosphäre.</li>
+        </ul><br>
+<h3 style = "font-weight: bold; font-size: 24px;">
+Erholung und Aufenthalt
+</h3>
+<ul>
+            <li>• Nahegelegene Stadthotels: komfortable Grundlage für ein Stay-&-Play-Erlebnis.</li>
+            <li>• Lake Walk before Casino: entspannter Spaziergang vor Dinner und Spielabend.</li>
+            <li>• Fun’ambule Route: praktische Verbindung zwischen Bahnhof und Jardin Anglais.</li>
+            <li>• Weekend Casino Night: Dinner, Bar, Spielautomaten, Tischspiele und Late-Night-Atmosphäre.</li>
+            <li>• zecard Rewards: Punkte für Geschenke, Partnerbenefits und zusätzliche Spielzeit nutzen.</li>
+        </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ </span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gibt_es_black_jack_im_casino_neuchtel"/><label
+                            class="faqLabel" for="gibt_es_black_jack_im_casino_neuchtel">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gibt es Black Jack im Casino Neuchâtel? </span></label>
+                        <div class="faqContent">
+                            <p>Ja. Black Jack gehört zu den Tischspielen in unserem Casino.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="welche_mindesteinstze_gibt_es_beim_black_jack"/><label
+                            class="faqLabel" for="welche_mindesteinstze_gibt_es_beim_black_jack">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Welche Mindesteinsätze gibt es beim Black Jack? </span></label>
+                        <div class="faqContent">
+                            <p>Beim Black Jack werden Mindesteinsätze von CHF 5 oder CHF 10 genannt.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gibt_es_ultimate_texas_holdem_poker"/><label
+                            class="faqLabel" for="gibt_es_ultimate_texas_holdem_poker">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gibt es Ultimate Texas Hold’em Poker? </span></label>
+                        <div class="faqContent">
+                            <p>Ja. Unsere Gäste können Ultimate Texas Hold’em Poker in unserem Casino erleben.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wie_wird_ultimate_texas_holdem_poker_im_casino_neuchtel_gespielt"/><label
+                            class="faqLabel" for="wie_wird_ultimate_texas_holdem_poker_im_casino_neuchtel_gespielt">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wie wird Ultimate Texas Hold’em Poker im Casino Neuchâtel gespielt? </span></label>
+                        <div class="faqContent">
+                            <p>Bei Ultimate Texas Hold’em Poker spielen unsere Gäste gegen den Croupier mit einer Kombination aus verdeckten und gemeinsamen Karten.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gibt_es_beim_ultimate_texas_holdem_poker_einen_progressiven_jackpot"/><label
+                            class="faqLabel" for="gibt_es_beim_ultimate_texas_holdem_poker_einen_progressiven_jackpot">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gibt es beim Ultimate Texas Hold’em Poker einen progressiven Jackpot? </span></label>
+                        <div class="faqContent">
+                            <p>Ja. Unser Tisch bietet auch einen progressiven Jackpot.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wann_sind_die_spielautomaten_geffnet"/><label
+                            class="faqLabel" for="wann_sind_die_spielautomaten_geffnet">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wann sind die Spielautomaten geöffnet? </span></label>
+                        <div class="faqContent">
+                            <p>Die Spielautomaten sind von Sonntag bis Donnerstag von 10.00 bis 03.00 Uhr sowie am Freitag, Samstag und am Vorabend eines Feiertages von 10.00 bis 04.00 Uhr geöffnet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://neuchatel-casino.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1782204223-logo.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Neuchatel Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Neuchatel Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Neuchatel Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Neuchatel Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Neuchatel Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Neuchatel Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Neuchatel Casino" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Neuchatel Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Neuchatel Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Neuchatel Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Neuchatel Casino" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Neuchatel Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Neuchatel Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Neuchatel Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Neuchatel Casino" /></div>
+            </div>
+        </div>
+        <div class="footerNavBlock">
+            <nav>
+                <ul class="nav__list--footer">
+                    <li class="footer__navItem"><a href="index">index</a></li>
+                    <li class="footer__navItem"><a href="restaurants">Restaurants</a></li>
+                    <li class="footer__navItem"><a href="online">Online</a></li>
+                    <li class="footer__navItem"><a href="vip">VIP</a></li>
+                    <li class="footer__navItem"><a href="events">Events</a></li>
+                    <li class="footer__navItem"><a href="uberuns">Über uns</a></li>
+                    <li class="footer__navItem"><a href="nutzungsbedingungen">Nutzungsbedingungen</a></li>
+                    <li class="footer__navItem"><a href="datenschutz">Datenschutz</a></li>
+                    <li class="footer__navItem"><a href="faq">FAQ</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Neuchatel Casino </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "";
+    var playNowText = "Jetzt spielen";
+    var maximumAmountText = "";
+    var wagerText = "";
+    var bonusCodeText = "";
+    var depositText = "";
+    var casinoName = "Neuchatel Casino";
+</script>
+
+</body>
+</html>
